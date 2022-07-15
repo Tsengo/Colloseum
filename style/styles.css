@@ -137,7 +137,7 @@ main{
 footer{
     border-top: solid 1px black;
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
     header{
         width: 100%;
     }
@@ -151,12 +151,18 @@ footer{
         display: none;
     }
     .menu{
-        gap: 30px;
+        width: 78%;
+        justify-content: space-between;
     }
     main{
         gap: 0px;
     }
+    .menu li{
+        display: flex;
+        align-items: center;
+    }
     .menu li a{
+        text-align: center;
         font-size: 16px;
     }
     .main_head{
