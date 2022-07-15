@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-color: #cf6604;
+    padding: 2% 2%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    width: 250px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/72678625_134769847924043_8839565143579820032_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.menu li a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+main{
+    padding: 8% 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.chang{
+    margin: 0 auto;
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.lang{
+    width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.chang:hover {
+    background-color: #cf6604;
+}
+.chang:hover .lang{
+    color: #000000;
+}
+.mainer{
+    margin: 0 auto;
+    width: fit-content;
+}
+.main_head{
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.one_img{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/257483706_1803572276498871_3579254555808087839_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#About{
+    margin: 80px auto;
+    font-size: 48px;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#About h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+#Times{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#Times h2{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+#Times table{
+    margin: 0 auto;
+}
+#Times table th{
+    text-align: left;
+    font-size: 30px;
+}
+#Times table td{
+    text-align: right;
+    font-size: 30px;
+}
+.sec_img{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/272044967_665978987888503_3505964819860346836_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    border-top: solid 1px black;
+}
+@media (max-width: 400px){
+    header{
+        width: 100%;
+    }
+    .logo{
+        width: 70px;
+    }
+    .logo a{
+        width: 100%;
+    }
+    .logo p{
+        display: none;
+    }
+    .menu{
+        gap: 30px;
+    }
+    main{
+        gap: 0px;
+    }
+    .menu li a{
+        font-size: 16px;
+    }
+    .main_head{
+        font-size: 60px;
+        text-align: center;
+    }
+    .one_img{
+        background-size: 90%;
+    }
+    #About{
+        margin: 30px auto;
+        font-size: 40px;
+        padding: 0 10%;
+        gap: 20px;
+    }
+    #About h2{
+        text-align: center;
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+    }
+    #About p{
+        font-size: 26px;
+        text-align: center;
+    }
+    .sec_img{
+        background-size: 90%;
+    }
+    #Times{
+        gap: 20px;
+    }
+    #Times h2{
+        font-size: 46px;
+    }
+    #Times table th{
+        font-size: 20px;
+    }
+    #Times table td{
+        font-size: 20px;
+    }
+    .mainer{
+        margin: 20px auto 0px auto;
+    }
+}
